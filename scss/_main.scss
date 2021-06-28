@@ -1,0 +1,50 @@
+$p-general: 150px;
+$p-picadas: 400px;
+
+
+.title-us {
+    padding-bottom: 10px;
+    padding-top: $p-general;
+    --animate-duration: 1.5s;
+}
+
+.us {
+    position: relative;
+    margin: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main-image {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+
+    &:hover {
+        opacity: 10;
+    }
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.us:hover .overlay {
+    opacity: 1;
+}
+
+.row {
+    margin: 0;
+}
+
+.main-title {
+    padding-top: 200px;
+}
+

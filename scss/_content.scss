@@ -1,0 +1,57 @@
+@import "_mixin.scss";
+
+$p-general: 150px;
+$p-text: 50px;
+
+.secciones {
+    padding-top: $p-general;
+}
+
+.card {
+    height: 100%;
+    transition: 0.6s;
+    ;
+}
+
+.section-title {
+    @include title;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
+
+.carousel-main {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+.carousel-item {
+    padding-top: 50px;
+}
+
+.btn {
+    @extend %button;
+}
+
+.padding-text {
+    padding-top: $p-text;
+}
+
+.texxxt {
+    font-style: inherit;
+}
+
+
+.padding-top {
+    padding-top: $p-general;
+}
+
+.space {
+    padding-top: $p-general;
+}

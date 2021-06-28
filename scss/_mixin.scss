@@ -1,0 +1,10 @@
+@mixin title  {
+    font-size: 40px;
+    color: black;
+    text-shadow: gray;
+
+    &:hover {
+        transition: 1s;
+        transform: translateY(-20px);
+    }
+}

@@ -1,0 +1,196 @@
+/* VARIABLES */
+/* IMPORTS */
+.logo-navbar {
+  padding: 0;
+  margin: 0;
+  width: 120px;
+  height: 120px;
+}
+
+.container {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+footer {
+  padding-top: 100px;
+  word-spacing: 5px;
+  background-image: linear-gradient(to bottom, white, #c5914c);
+  text-decoration: none;
+  color: maps;
+}
+
+.footer {
+  padding-top: 10px;
+  word-spacing: 10px;
+  color: maps;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.since {
+  font-size: 80%;
+  text-decoration: none;
+  color: maps;
+}
+
+.contacto {
+  text-decoration-color: none;
+  text-decoration: none;
+}
+
+.title-us {
+  padding-bottom: 10px;
+  padding-top: 150px;
+  --animate-duration: 1.5s;
+}
+
+.us {
+  position: relative;
+  margin: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.main-image {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border-color: black;
+}
+.main-image:hover {
+  opacity: 10;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.us:hover .overlay {
+  opacity: 1;
+}
+
+.row {
+  margin: 0;
+}
+
+.main-title {
+  padding-top: 200px;
+}
+
+.secciones {
+  padding-top: 150px;
+}
+
+.card {
+  height: 100%;
+  transition: 0.6s;
+}
+
+.section-title {
+  font-size: 40px;
+  color: black;
+  text-shadow: gray;
+}
+.section-title:hover {
+  transition: 1s;
+  transform: translateY(-20px);
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-main {
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.carousel-inner {
+  border-radius: 5px;
+}
+
+.carousel-item {
+  padding-top: 50px;
+}
+
+.padding-text {
+  padding-top: 50px;
+}
+
+.texxxt {
+  font-style: inherit;
+}
+
+.padding-top {
+  padding-top: 150px;
+}
+
+.space {
+  padding-top: 150px;
+}
+
+.btn {
+  background-color: grey;
+  color: white;
+  border-color: black;
+  display: none;
+}
+
+.sz.cond {
+  color: red;
+  font-size: 50px;
+}
+
+.sz.else {
+  color: black;
+  font-size: 200px;
+}
+
+.logo-error {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  opacity: 0.8;
+}
+
+.body-error {
+  background-image: url("https://dam.cocinafacil.com.mx/wp-content/uploads/2020/10/queso-de-buena-calidad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-error:hover {
+  transition: 1s;
+  transform: scale(1.5);
+}
+
+/* STYLES */
+* {
+  font-family: "Nunito", "cursive";
+  color: negro #3a3737;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: blanco #f1f1f1;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

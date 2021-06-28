@@ -1,0 +1,125 @@
+* {
+    font-family: 'Nunito', "cursive";
+    color: rgb(65, 49, 49);
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-image: white;
+    text-align: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.title-us {
+    padding-bottom: 10px;
+}
+
+.us {
+    position: relative;
+    padding-top: 100px;
+    margin: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.main-image {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.us:hover .overlay {
+    opacity: 1;
+}
+
+.logo-navbar {
+    padding: 0;
+    margin: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.main-title {
+    padding-top: 200px;
+}
+
+.secciones {
+    padding-top: 50px;
+}
+
+.carousel-item {
+    padding-top: 50px;
+}
+
+.card {
+    height: 100%;
+    transition: 0.6s;
+    ;
+}
+
+.card:hover {
+    transform: scale(1.05)
+}
+
+.btn {
+    background-color: grey;
+    color: white;
+    border-color: black;
+    display: none;
+}
+
+.btn:hover {
+    background-color: grey;
+    border-color: black;
+}
+
+.carousel-main {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+.container {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+footer {
+    padding-top: 50px;
+    word-spacing: 5px;
+    background-image: linear-gradient(to bottom, white, rgb(197, 145, 76));
+}
+
+.footer {
+
+    padding-top: 10px;
+    word-spacing: 10px;
+}
+
+.since {
+    font-size: 80%;
+    ;
+}

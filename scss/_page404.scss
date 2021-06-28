@@ -1,0 +1,18 @@
+.logo-error {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+.body-error {
+    background-image: url("https://dam.cocinafacil.com.mx/wp-content/uploads/2020/10/queso-de-buena-calidad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-error:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}

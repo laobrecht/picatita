@@ -1,0 +1,35 @@
+$p-general: 100px;
+
+footer {
+    padding-top: $p-general;
+    word-spacing: 5px;
+    background-image: linear-gradient(to bottom, white, rgb(197, 145, 76));
+    text-decoration: none;
+    color: nth(maps, 1);
+}
+
+.footer {
+    padding-top: 10px;
+    word-spacing: 10px;
+    color: nth(maps, 1);
+    
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    margin-right: 20px
+}
+
+.since {
+    font-size: 80%;
+    text-decoration: none;
+    color: nth(maps, 1);
+}
+
+.contacto {
+    text-decoration-color: none;
+    text-decoration: none;
+
+}
