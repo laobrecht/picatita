@@ -12,14 +12,12 @@ footer {
     padding-top: 10px;
     word-spacing: 10px;
     color: nth(maps, 1);
-    
+
 }
 
 .right {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-    margin-right: 20px
+    padding-bottom: 40px;
+    margin-left: 1260px;
 }
 
 .since {
@@ -33,3 +31,23 @@ footer {
     text-decoration: none;
 
 }
+
+/* MOBILE styles */
+
+@media only screen and (max-width: 500px) {
+    .right {
+        display: none;
+    }
+}
+
+/* Fin MOBILE styles */
+
+/* TABLET styles */
+
+@media only screen and (min-width: 501px) and (max-width: 1200px) {
+    .right {
+        display: none;
+    }
+}
+
+/* Fin TABLET styles */

@@ -13,6 +13,7 @@ $p-general: 150px;
 @import '_maps.scss';
 @import '_conditional.scss';
 @import '_page404.scss';
+@import '_ubicación.scss';
 
 /* STYLES */
 
@@ -28,4 +29,3 @@ body {
     background-color: nth($theme-colors, 2);
     text-align: center;
 }
-

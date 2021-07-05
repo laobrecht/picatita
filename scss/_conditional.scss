@@ -1,9 +1,11 @@
 @mixin condicion ($fontif) {
     color: $fontif;
 
-    @if $fontif == black {
+    @if $fontif==black {
         font-size: 200px;
-    } @else {
+    }
+
+    @else {
         font-size: 50px;
     }
 }
