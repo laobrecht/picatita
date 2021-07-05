@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* VARIABLES */
 /* IMPORTS */
 .logo-navbar {
@@ -28,10 +30,8 @@ footer {
 }
 
 .right {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 20px;
-  margin-right: 20px;
+  padding-bottom: 40px;
+  margin-left: 1260px;
 }
 
 .since {
@@ -45,6 +45,22 @@ footer {
   text-decoration: none;
 }
 
+/* MOBILE styles */
+@media only screen and (max-width: 500px) {
+  .right {
+    display: none;
+  }
+}
+
+/* Fin MOBILE styles */
+/* TABLET styles */
+@media only screen and (min-width: 501px) and (max-width: 1200px) {
+  .right {
+    display: none;
+  }
+}
+
+/* Fin TABLET styles */
 .title-us {
   padding-bottom: 10px;
   padding-top: 150px;
@@ -64,6 +80,7 @@ footer {
   border-radius: 5px;
   border-color: black;
 }
+
 .main-image:hover {
   opacity: 10;
 }
@@ -104,6 +121,7 @@ footer {
   color: black;
   text-shadow: gray;
 }
+
 .section-title:hover {
   transition: 1s;
   transform: translateY(-20px);
@@ -179,6 +197,22 @@ footer {
   transform: scale(1.5);
 }
 
+/* MOBILE styles */
+@media only screen and (max-width: 500px) {
+  .ubicación {
+    display: none;
+  }
+}
+
+/* Fin MOBILE styles */
+/* TABLET styles */
+@media only screen and (min-width: 501px) and (max-width: 1200px) {
+  .ubicación {
+    display: none;
+  }
+}
+
+/* Fin TABLET styles */
 /* STYLES */
 * {
   font-family: "Nunito", "cursive";
