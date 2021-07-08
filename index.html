@@ -22,6 +22,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Itim&family=Nunito:wght@300&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="imagenes/logopicatita.jpg">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="main.css">
 
   <!-- ANIMATIONS -->
 
@@ -89,11 +91,13 @@
       <h1>Bienvenidos al sitio Oficial de Picatita!</h1>
       <h2 id="nosotros" class="title-us animate__animated animate__pulse animate__infinite">Nosotros</h2>
       <img src="imagenes/CLASICA.JPG" alt="PICADA CLASICA" class="main-image">
-      <div class="overlay">Somos una pequeña empresa que combina la calidad de sus productos con atención personalizada,
+      <div class="overlay">
+        <p class="text-card">Somos una pequeña empresa que combina la calidad de sus productos con atención personalizada,
         garantizándote una experiencia única. El buen servicio acompañado de una logística integral para llegar a cada
         lugar, son nuestra premisa para lograr ofrecer los más exquisitos placeres a la mesa de quienes nos eligen. En
         Picatita realizamos una selección de los mejores quesos y fiambres y complementamos con panes y conservas,
         acompañados de bebidas, ofreciendo una gran variedad para todos los gustos.
+        </p>
       </div>
     </div>
   </div>
@@ -105,7 +109,7 @@
     <div class="container d-lg-block p-10">
       <div class="row">
         <h2 class="section-title">Picadas</h2>
-        <div class="col-lg-4 col-sm-12 col-12">
+        <div class="col-lg-4 col-sm-12 col-12 animate__animated animate__fadeIn animate__delay-1s" loading="lazy">
           <div class="card" style="width: 12 rem;">
             <img src="imagenes/ESPECIAL.JPG" class="card-img-top" alt="PICADA ESPECIAL">
             <div class="card-body">
@@ -118,7 +122,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6 col-12">
+        <div class="col-lg-4 col-sm-6 col-12 animate__animated animate__fadeIn animate__delay-1s" >
           <div class="card" style="width: 12 rem;">
             <img src="imagenes/VEGETARIANA.JPG" id="PICADAS" class="card-img-top" alt="PICADA VEGETARIANA">
             <div class="card-body">
@@ -131,7 +135,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-sm-6 col-12">
+        <div class="col-lg-4 col-sm-6 col-12 animate__animated animate__fadeIn animate__delay-1s" loading="lazy">
           <div class="card" style="width: 12 rem;">
             <img src="imagenes/CLASICA.JPG" class="card-img-top" alt="PICADA CLASICA">
             <div class="card-body">
@@ -155,7 +159,7 @@
       <div class="container d-lg-block">
         <div class="row">
           <h2 class="section-title">Sandwiches</h2>
-          <div class="col-lg-4 col-sm-12 col-12">
+          <div class="col-lg-4 col-sm-12 col-12 animate__animated animate__fadeIn animate__delay-2s">
             <div class="card" style="width: 12 rem;">
               <img src="imagenes/sand1.JPG" class="card-img-top" alt="IMAGEN DE SANDWICHES 1">
               <div class="card-body">
@@ -168,7 +172,7 @@
           </div>
 
 
-          <div class="col-lg-4 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12 animate__animated animate__fadeIn animate__delay-2s">
             <div class="card" style="width: 12 rem;">
               <img src="imagenes/sand2.JPG" class="card-img-top" alt="IMAGEN DE SANDWICHES 2">
               <div class="card-body">
@@ -182,7 +186,7 @@
 
 
 
-          <div class="col-lg-4 col-sm-6 col-12">
+          <div class="col-lg-4 col-sm-6 col-12 animate__animated animate__fadeIn animate__delay-2s">
             <div class="card" style="width: 12 rem;">
               <img src="imagenes/sand3.JPG" class="card-img-top" alt="IMAGEN DE SANDWICHES 3">
               <div class="card-body">
@@ -243,7 +247,7 @@
 
     <div class="ubicación">
       <h2 id="UBICACIÓN" class="secciones">Ubicación</h2>
-      <iframe class="ubicación"
+      <iframe class="img-fluid ubicación"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.1688877096776!2d-58.389216185192645!3d-34.675686768815794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcccb9198ab599%3A0x1d9f3e727075707d!2sDBK%2C%20Catamarca%201829%2C%20B1868%20Pi%C3%B1eyro%2C%20Provincia%20de%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses-419!2sse!4v1623615485049!5m2!1ses-419!2sse"
         width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy">
       </iframe>
@@ -251,9 +255,8 @@
 
 
     <!-- footer & media -->
-
     <footer>
-      <section>
+      <section class="footer-media">
         <a href="https://www.facebook.com/Picatita_ok-104713534624731" target="_blank"> <img class="element"
             src="imagenes/logo_facebook.png" width="40px" alt="logo facebook"></a>
         <a href="https://instagram.com/picatita_ok" target="_blank"><img class="element"
@@ -262,9 +265,9 @@
             src="imagenes/logo_twitter.png" width="40px" height="40px" alt="logo twitter"></a>
       </section>
 
-      <div class="fixed-bottom right">
+      <div class="right">
         <a href="https://api.whatsapp.com/send?phone=541162647577&text=hola,%20me%20pasas%20info,%20por%20favor?"
-          target="_blank"><img src="imagenes/whatsapp.png" width="80px" height="80px" alt="ICONO WHATSAPP"></a>
+          target="_blank"><img src="imagenes/whatsapp.png" class="wp-icon" width="80px" height="80px" alt="ICONO WHATSAPP"></a>
       </div>
 
       <section class="footer">
