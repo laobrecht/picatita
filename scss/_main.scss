@@ -31,8 +31,11 @@ $p-picadas: 400px;
     bottom: 0;
     transition: .5s ease;
     opacity: 0;
+}
+
+.text-card {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -51,8 +54,9 @@ $p-picadas: 400px;
 /* MOBILE styles */
 
 @media only screen and (max-width: 500px) {
-    .overlay {
-        font-size: xx-small;
+    .text-card {
+        font-size: 8px;
+        text-align: center;
     }
 }
 
@@ -61,8 +65,9 @@ $p-picadas: 400px;
 /* TABLET styles */
 
 @media only screen and (min-width: 501px) and (max-width: 1200px) {
-    .overlay {
-        font-size: x-small;
+    .text-card {
+        font-size: 10px;
+        text-align: center;
     }
 }
 
